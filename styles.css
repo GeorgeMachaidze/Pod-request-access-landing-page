@@ -1,0 +1,385 @@
+
+ body {
+    background-color: rgba(18, 23, 37, 0.9);
+    background-image: url("assets/mobile/image-host.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    font-family: "Chivo";
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  .main-img {
+    display: none;
+  }
+  .logo {
+    text-align: center;
+    margin-top: 20%;
+  }
+  .icons{
+    transform: scale(0.6);
+    margin: 0;
+  }
+  
+  .footer{
+    display: flex;
+    align-items: flex-start;
+  }
+  .pod {
+    margin-left: 13.2px;
+  }
+  .main-container {
+    margin-top: 15%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .mail {
+    text-align: center;
+    margin-top: 10%;
+  }
+  .button {
+    margin-top: 5%;
+    text-align: center;
+    width: 327px;
+    height: 46px;
+    border-radius: 28px;
+    border: 0px;
+    background-color: #54e6af;
+  }
+  .text {
+    margin-top: 5%;
+    text-align: center;
+    color: #c2cbe5;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .dots{
+    display: none;
+  }
+  button:hover {
+    background-color: #b3ffe2;
+  }
+  input[type="email"]:focus {
+    background-color: #2c344b;
+    border: 0px;
+  }
+  input[type="email"], textarea, select { 
+    outline: none;
+}
+  input {
+    border-radius: 28px;
+    background-color: #2c344b;
+    color: #FFFFFF;
+    width: 327px;
+    height: 46px;
+    border: 0px;
+    padding-left: 20px;
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  h1 {
+    text-align: center;
+    color: #54e6af;
+    font-size: 26px;
+    line-height: 38px;
+    text-transform: uppercase;
+  }
+  h1 span {
+    color: white;
+  }
+  p {
+    color: #fb3e3e;
+  }
+@media screen and (min-width: 768px){
+    body{
+        background-blend-mode: normal;
+        background-image: url("assets/tablet/image-host.jpg");
+        background-position: top right;
+        background-color: rgba(18, 23, 37);
+        background-blend-mode: normal;
+        background-size: 65%;
+    }
+    h1{
+        margin-top: 15%;
+        color: #54e6af;
+        font-size: 48px;
+        line-height: 56px;
+        text-transform: uppercase;
+        text-align: left;
+        padding-top: 2.5%;
+    }
+    .text{
+        text-align: left;
+        width: 445px;
+        height: 39px;
+        font-size: 18px;
+        line-height: 28px;
+
+    }
+    .logo{
+        margin-left: 5%;
+        text-align: left;
+        margin-top: 8%;
+       
+    }
+    .footer{
+      display: flex;
+      margin-top: 10%;
+      order: 2;
+      padding-bottom: 6%;
+    }
+    .icons{
+      transform: scale(0.9);
+      margin-left: 5%;
+    }
+    .f-icon{
+      margin-left: 0;
+    }
+    .main-img{
+       display: none;
+    }
+    .main-container{
+        background-color: #121725;
+        margin-right: 15%;
+        margin-top: 20%;
+        margin-left: 3%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .mail{
+        background-color: #2C344B;
+        width: 427px;
+        height: 50px;
+        border-radius: 28px;
+    }
+    input {
+        border-radius: 28px;
+        background-color: #2c344b;
+        border: 0px;
+        width: 265px;
+        height: 46px;
+        
+      }
+      .button {
+        margin-top: 0px;
+        border-radius: 28px;
+        border: 0px;
+        background-color: #54e6af;
+        width: 162px;
+        height: 46px;
+        float: right;
+        margin-top: 2px;
+      }
+      .dots{
+        display: inline-block;
+        margin-top: 12%;
+        margin-left: 3%;
+      }
+   }
+  @media screen and (min-width: 1440px) {
+    body{
+        background-color: #121725;
+        background-image: none;
+    }
+    .logo{
+      margin-left: 20%;
+      margin-top: 10%;
+      display: inline-block;
+    }
+    .main-img{
+      display: inline-block;
+      margin-left: 62%;
+      z-index: 1;
+    }
+    .main-div{
+      display: flex;
+      flex-direction: column;
+    }
+    .main-container{
+      width: 723px;
+      height: 508px;
+      margin-top: -57%;
+      margin-left: 20%;
+      z-index: 1;
+    }
+    h1{
+      margin-top: 10%;
+      font-size: 52px;
+      line-height: 62px;
+    }
+    .text{
+      text-align: left;
+      font-size: 18px;
+      line-height: 28px;
+      margin-top: 3%;
+    }
+    .mail{
+      background-color: #2C344B;
+      width: 427px;
+      height: 56px;
+      border-radius: 28px;
+  }
+  .button {
+    margin-top: 0px;
+    border-radius: 28px;
+    border: 0px;
+    background-color: #54e6af;
+    width: 162px;
+    height: 54px;
+    float: right;
+    margin-top: 2px;
+  }
+  input {
+    border-radius: 28px;
+    background-color: #2c344b;
+    border: 0px;
+    width: 265px;
+    height: 54px;
+    
+  }
+  .footer{
+    margin-top: 8%;
+    margin-left: 0;
+    
+  }
+  .icons{
+    transform: scale(1);
+    margin-left: 5%;
+    
+  }
+  .f-icon{
+    margin-left: 0;
+   
+  }
+  .dots{
+    z-index: 2;
+    margin-top: -7%;
+    margin-left: 136%;
+    
+  }
+  }
+
+
+
+
+
+/* 
+p{
+    margin-top: 8px;
+    margin-left: 32px;
+    color: #FB3E3E;
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+h1{
+    position: absolute;
+    font-family: 'Chivo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    text-transform: uppercase;
+    color: #54E6AF;
+    margin-top: 88px;
+    margin-right: 58px;
+    margin-bottom: 297px;
+}
+h1 span{
+    color: white;
+}
+.text{
+    position: absolute;
+    margin-top: 236px;
+    margin-right: 278px;
+    margin-bottom: 189px;
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #C2CBE5;
+}
+.form-control{
+    border-radius: 28px;
+    background-color: #2C344B;
+    border-color: #2C344B;
+}
+.form-control::placeholder{
+    position: absolute;
+    color: white;
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    padding-top: 14px;
+    padding-left: 32px;
+    padding-bottom: 14px;
+}
+
+.btn:hover{
+    background-color: #B3FFE2;
+    color: #2C344B;
+}
+.btn{
+    width:162px;
+    height: 46px;
+    border-radius: 28px;
+    background-color: #54E6AF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    color: #121725;
+    font-family: 'Chivo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+
+}
+.main-img{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 492px;
+    margin-bottom: 130px;
+    margin-right: 14px;
+    width: 962px;
+    height: 640px;
+}
+.logo{
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 102px;
+}
+.pod{
+    position: absolute;
+    margin-top: 112px;
+    margin-left: 234.2px;
+}
+.main-container{
+    width: 723px;
+    height: 509px;
+    background-color: #121725;
+    position: absolute;
+    margin-top: 261px;
+    margin-left: 175px;
+    margin-bottom: 130px;
+    margin-right: 552px;
+}
+.footer{
+    margin-top: 93px;
+    margin-bottom: 130px;
+    display: inline-block;
+} */
